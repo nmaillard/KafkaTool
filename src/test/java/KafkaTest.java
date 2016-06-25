@@ -79,7 +79,7 @@ public class KafkaTest {
 		assert(AdminUtils.topicExists(zkUtils, "mytopic"));
 	}
 	
-	@Test
+	/*@Test
 	public void CheckProducer() throws Exception {
         Properties properties = TestUtils.getProducerConfig(zkServer.getConnectString());
         ProducerConfig producerConfig = new ProducerConfig(properties);
@@ -91,6 +91,6 @@ public class KafkaTest {
      // setup simple consumer
         Properties consumerProperties = TestUtils.createConsumerProperties(zkServer.getConnectString(), "group0", "consumer0", -1);
         ConsumerConnector consumer = (ConsumerConnector) kafka.consumer.Consumer.createJavaConsumerConnector(new ConsumerConfig(consumerProperties));
-	}
+	}*/
 
 }
