@@ -6,6 +6,7 @@ import kafka.admin.AdminUtils;
 import kafka.admin.TopicCommand;
 import kafka.consumer.ConsumerConfig;
 import kafka.consumer.ConsumerConnector;
+import kafka.producer.KeyedMessage;
 import kafka.producer.Producer;
 import kafka.producer.ProducerConfig;
 import kafka.server.KafkaConfig;
